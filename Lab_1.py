@@ -39,7 +39,7 @@ def display_circuit(qc): #Displays the quantum circuit diagram
     plt.show()
 
 if __name__ == "__main__":
-    num_qubits = 5 
+    num_qubits = 5 # Used 5 qubits, It can also be changed to 10 qubits
     circuit = create_fully_connected_circuit(num_qubits)
     print("Quantum Circuit:")
     print(circuit)
